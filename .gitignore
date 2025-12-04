@@ -1,1 +1,8 @@
 # please edit this file
+__pycache__/
+*.pyc
+build/
+install/
+log/
+.vscode/
+data/**/*.bag

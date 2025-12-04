@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  palletizer:
+    build: .
+    volumes:
+      - .:/workspace
+    network_mode: host
+    tty: true
+    stdin_open: true

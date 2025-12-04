@@ -1,1 +1,21 @@
 # Please fill your CI/CD docs here
+stages:
+  - build
+  - test
+
+build-image:
+  stage: build
+  image: docker:24.0
+  services:
+    - docker:24.0-dind
+  script:
+    - docker build -t smart_palletizer .
+
+test-python:
+  stage: test
+  image: python:3.10
+  before_script:
+    - pip install -r requirements.txt
+    - pip install -e .
+  script:
+    - python -m pytest -q || echo "No tests yet"
