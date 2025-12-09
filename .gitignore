@@ -41,10 +41,10 @@ docs/.doctrees/
 docs/.cache/
 
 #Remove if we want to track
-outputs/task1/* 
-outputs/task2/*
-outputs/task3/*
-outputs/task4/*
+#outputs/task1/* 
+#outputs/task2/*
+#outputs/task3/*
+#outputs/task4/*
 
 #Folder names i removed from before
 task1_outputs/
