@@ -1,0 +1,62 @@
+# please edit this file
+
+#From Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+*.tmp
+
+venv/
+env/
+.venv/
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+.ipynb_checkpoints/
+*.ipynb
+
+
+.vscode/
+.vscode-server/
+.vscode-remote/
+.history/
+
+#Docker
+*.dockerfile~
+*~Dockerfile
+docker-compose.override.yml
+docker-compose*.log
+
+#Sphinx related
+docs/build/
+docs/_build/
+docs/.doctrees/
+docs/.cache/
+
+#Remove if we want to track
+outputs/task1/* 
+outputs/task2/*
+outputs/task3/*
+outputs/task4/*
+
+#Folder names i removed from before
+task1_outputs/
+task2_outputs/
+task3_visualizations/
+task4_outputs/
+
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+
+pip-selfcheck.json

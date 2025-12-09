@@ -1,0 +1,10 @@
+# Please fill the required pip packages
+
+numpy
+opencv-python-headless
+open3d>=0.18.0
+scipy
+matplotlib
+imageio
+jupyter
+pillow

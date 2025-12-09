@@ -1,0 +1,12 @@
+services:
+  pallet_dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pallet_dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace:rw
+    stdin_open: true
+    tty: true
+    command: /bin/bash

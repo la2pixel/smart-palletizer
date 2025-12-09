@@ -1,0 +1,12 @@
+# Please fill your CI/CD docs here
+
+#All tasks are executed locally inside Docker and via Makefile.
+#No remote CI pipeline is required for evaluation.
+
+stages:
+  - none
+
+placeholder:
+  stage: none
+  script:
+    - echo "CI/CD not required for this challenge. All execution is handled in Docker."
