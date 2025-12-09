@@ -218,8 +218,11 @@ The final rotation matrix R and centroid t form the camera-frame pose of the box
 
 - To express the pose in a world coordinate system, I multiplied it with the provided cam2root.json transform. This yields a stable SE(3) estimate for each object, saved as a JSON file.
 
-The implementation is in `task4_6dpose.py`, and a simple wrapper (`task4_pose3d.py`) calls the full pipeline for both 
-`small_box/` and `medium_box/`. All images and pose matrices are written to `outputs/task4/`.
+The implementation is in `task4_6dpose.py`, and a simple wrapper (`task4_pose3d.py`) calls the full pipeline for both `small_box/` and `medium_box/`. All images and pose matrices are written to `outputs task4`. 
+
+You can see some examples below:
+![task4_small_box](outputs/task4/small_box_mask_3_axes.png)
+![task4_medium_box](outputs/task4/medium_box_mask_0_axes.png)
 ---
 
 
